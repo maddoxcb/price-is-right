@@ -9,7 +9,7 @@ Build a simple game inspired by "The Price is Right" using React and TypeScript.
 1. **Consume an API endpoint** at `/api/items` that returns a list of items. Each item will have a name and price.
 2. **Implement a two-player game**: Player 1 and Player 2.
 3. **Display items one at a time**. For each item, prompt both players to submit their bids.
-4. **Determine the winner for each item**: The player whose bid is closest to the actual price wins that round.
+4. **Determine the winner for each item**: The player whose bid is closest to the actual price (but not more the price) wins that round.
 5. **Tally the results** after all items have been bid on. The player who wins the most rounds is the overall winner.
 6. **Show the winner** at the end of the game.
 7. **Bonus**: After displaying the winner, reset the game state so players can play again.
