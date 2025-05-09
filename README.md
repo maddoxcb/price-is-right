@@ -27,6 +27,10 @@ Build a simple game inspired by "The Price is Right" using React and TypeScript.
   `npm run dev`
 - The app should be available at `http://localhost:5173`.
 
+## Styling
+
+- If you wish to include styling, the application has tailwindCSS 4.0 pre-configured.
+
 ## API Example
 
 - **GET** `/api/items`  
