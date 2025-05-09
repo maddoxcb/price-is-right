@@ -6,7 +6,11 @@ import tailwindcss from "@tailwindcss/vite";
 const itemsPlugin = {
   name: "items-api",
   configureServer(server: ViteDevServer) {
-    server.middlewares.use("/api/items", (_, res) => {
+    server.middlewares.use("/api/items", async (_, res) => {
+      //random latency
+      const latency = Math.floor(Math.random() * 200) + 100;
+      await new Promise((resolve) => setTimeout(resolve, latency));
+
       // Set response headers
       res.setHeader("Content-Type", "application/json");
       // Send response
