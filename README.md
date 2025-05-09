@@ -1,7 +1,3 @@
-Here’s a revised instructional version for an interview prompt:
-
----
-
 # Price is Right Game — Interview Project
 
 ## Project Overview
