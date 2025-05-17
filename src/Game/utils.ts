@@ -27,5 +27,3 @@ const getWinner = (guesses: PlayerGuesses, correctBid: number): string => {
 }
 
 export { getWinner }
-
-
